@@ -28,4 +28,5 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PURPLE_BUSH_0F975E210 }}
           app_location: "/"  # Directorio que contiene tu HTML
           api_location: ""   # Sin API
-          output_location: "/" # Donde están los archivos finales
+          output_location: "/" # Directorio donde están los archivos finales
+          action: "upload"  # Acción de despliegue explícita
